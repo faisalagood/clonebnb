@@ -4,5 +4,36 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: Monsterrat, Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
 }
 
+html, body {
+    height: 100%;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    width: 390px; /* iPhone 12 width in portrait mode */
+    height: 844px; /* iPhone 12 height in portrait mode */
+    border: 1px solid #000; /* Optional: to see the boundary */
+}
+
+#banner {
+    width: 100%;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7e7e2;
+}
+
+#banner p {
+    font-size: 14px;
+    font-weight: 600; /* Semibold? */
+    text-decoration-line: underline;
+}
