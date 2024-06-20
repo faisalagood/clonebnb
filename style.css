@@ -84,13 +84,14 @@ body {
     font-size: 12px;
     margin-right: 30px;
     margin-top:2px;
+    color: rgb(106, 106, 106);
 }
 
 #nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 5px;
   padding-right: 20px;
   padding-left: 20px;
   border-bottom: 1px solid #c1c1b36e;
