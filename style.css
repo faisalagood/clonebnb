@@ -356,4 +356,45 @@ body > * {
     color: rgb(106, 106, 106);
   }
 
+footer {
+    border-top: 1px solid rgb(231, 231, 231);
+    background-color: rgb(247, 247, 247);
 
+}
+
+#section-1,
+#section-2,
+#section-3,
+#section-4,
+#section-5 {
+    padding-top: 20px;
+    padding-left: 23px;
+    font-size: 14px;
+    color: rgb(94, 94, 94);
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+    
+}
+
+#section-1 p,
+#section-2 p,
+#section-3 p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#section-4 ul {
+ display: flex;
+ flex-direction: row;
+ padding-top: 5px;
+ list-style-type: none;
+}
+
+.pound {
+    font-size: 18px;
+    color: black;
+}
+
+#section-4 ul li:nth-child(2) {
+    margin-left: 20px;
+}
